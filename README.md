@@ -20,6 +20,7 @@ ibmcloud login -a 'https://cloud.ibm.com' -r 'us-south'
 ibmcloud target --cf-api 'https://api.us-south.cf.cloud.ibm.com'
 
 wget --no-check-certificate -O install.sh https://raw.githubusercontent.com/Ericssuny/IBMYes/master/install.sh && chmod +x install.sh  && ./install.sh
+
 2.资源组ID:
 ibmcloud resource groups
 
