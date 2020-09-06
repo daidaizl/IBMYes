@@ -9,8 +9,12 @@
 (注册即送50g免费流量)
 2:https://www.xjycloud.pw
 【安装脚本】: 
-一键安装脚本：wget --no-check-certificate -O install.sh https://raw.githubusercontent.com/CCChieh/IBMYes/master/install.sh && chmod +x install.sh  && ./install.sh
-
+一键安装脚本：wget --no-check-certificate -O install.sh https://raw.githubusercontent.com/zldaidai/IBMYes/master/install.sh && chmod +x install.sh  && ./install.sh
+失败的话用这个安装代码
+cli
+ibmcloud login -a 'https://cloud.ibm.com' -r 'us-south'
+ibmcloud target --cf-api 'https://api.us-south.cf.cloud.ibm.com'
+wget --no-check-certificate -O install.sh https://raw.githubusercontent.com/Ericssuny/IBMYes/master/install.sh && chmod +x install.sh  && ./install.sh
 2.资源组ID:
 ibmcloud resource groups
 
